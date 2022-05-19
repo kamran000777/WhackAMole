@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Syne Mono", monospace;
+}
+body {
+  background-color: rgb(103 152 12);
+}
+.container header {
+  text-align: center;
+  font-size: 7vw;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+#btn {
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 46vw;
+  font-size: 1em;
+  background-color: #47a50e
+;
+}
+.game {
+  display: flex;
+  margin-top: 5px;
+  background-image: url("image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 105%;
+}
+.scoreBox {
+  font-size: 3vw;
+}
+.boards {
+  height: 36vw;
+  width: 36vw;
+  display: grid;
+  grid-template-columns: repeat(3, 12vw);
+  grid-template-rows: repeat(3, 12vw);
+  margin-left: 6vw;
+}
+
+.mole {
+  background-image: url("1.png");
+  background-position: center;
+  background-size: contain;
+}

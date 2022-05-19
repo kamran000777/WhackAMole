@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whach-a-Mole!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Whack-a-Mole!</header>
+      <button id="btn" onclick="whack()">Play</button>
+      <div class="game">
+        <div class="scoreBox">
+          <div>Your Score : <span id="score">0</span></div>
+          <div id="hiscoreBox">High Score : 0</div>
+          <div class="time">Time Left : <span id="timeleft">60</span></div>
+        </div>
+        <div class="boards">
+          <div class="box mole" id="1"></div>
+          <div class="box" id="2"></div>
+          <div class="box" id="3"></div>
+          <div class="box" id="4"></div>
+          <div class="box" id="5"></div>
+          <div class="box" id="6"></div>
+          <div class="box" id="7"></div>
+          <div class="box" id="8"></div>
+          <div class="box" id="9"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
